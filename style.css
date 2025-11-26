@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f7f6;
+    color: #2c3e50;
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    user-select: none;
+}
+
+#counter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+   color : Dark Navy (#2c3e50);
+}
+
+button {
+    
+    /* Text matches the number */
+    background-color: #3498db; /* Blue */
+    color: white;
+    border: none; /* Remove border for cleaner look */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow */
+    transition: background-color 0.3s;
+      padding: 0 10;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
